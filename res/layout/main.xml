@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:myapp="http://schemas.android.com/apk/res/TipMeterFree.com"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent" android:background="@drawable/startupbackground">
+<com.admob.android.ads.AdView
+android:id="@+id/ad"
+android:layout_width="fill_parent"
+android:layout_height="100px"
+myapp:backgroundColor="#000000"
+myapp:primaryTextColor="#FFFFFF"
+myapp:secondaryTextColor="#CCCCCC"
+/>
+
+
+<Button android:text="Click When Seated" android:layout_width="wrap_content" android:id="@+id/Button01" android:layout_height="wrap_content" android:layout_x="91dip" android:layout_y="106dip"></Button>
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Time:" android:textColor="#FFFFFF" android:id="@+id/TextView02" android:layout_x="50px" android:layout_y="161px"></TextView>
+<TextView android:id="@+id/TextView01" android:text="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="91dip" android:layout_y="161dip" android:textColor="#FFFFFF"></TextView>
+<TextView android:id="@+id/TextView03" android:text="Tip:" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="216dip" android:layout_y="161dip" android:textColor="#FFFFFF"></TextView>
+<TextView android:id="@+id/Tips" android:text="0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="244dip" android:layout_y="161dip" android:textColor="#FFFFFF"></TextView>
+
+
+
+
+
+
+
+
+
+
+
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="154dip" android:text="00.00" android:id="@+id/total" android:textColor="#FFFFFF" android:layout_y="379dip"></TextView>
+
+
+
+
+<TextView android:id="@+id/TextView10" android:text="Amt Per Person" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="48dip" android:layout_y="379dip" android:textColor="#FFFFFF"></TextView>
+
+<TextView android:textColor="#FFFFFF" android:text="00.00" android:id="@+id/tipamt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="154dip" android:layout_y="361dip"></TextView>
+<TextView android:textColor="#FFFFFF" android:text="Tip Per Person" android:id="@+id/TextView09" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="48dip" android:layout_y="360dip"></TextView>
+<Button android:id="@+id/Button02" android:layout_width="wrap_content" android:text="Calculate" android:layout_height="wrap_content" android:layout_x="129dip" android:layout_y="312dip"></Button>
+
+<EditText android:id="@+id/tip" android:layout_width="wrap_content" android:text=".00" android:layout_height="wrap_content" android:layout_x="153dip" android:layout_y="222dip"></EditText>
+<TextView android:textColor="#FFFFFF" android:text="Tip %" android:id="@+id/TextView06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="86dip" android:layout_y="233dip"></TextView>
+
+
+<EditText android:id="@+id/bill" android:layout_width="wrap_content" android:text="00.00" android:layout_height="wrap_content" android:layout_x="152dip" android:layout_y="178dip"></EditText>
+<TextView android:textColor="#FFFFFF" android:text="Bill Total" android:id="@+id/TextView04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="85dip" android:layout_y="189dip"></TextView>
+<EditText android:id="@+id/people" android:layout_width="wrap_content" android:text="1" android:layout_height="wrap_content" android:layout_x="156dip" android:layout_y="265dip"></EditText>
+<TextView android:textColor="#FFFFFF" android:text="# People" android:id="@+id/TextView07" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="89dip" android:layout_y="278dip"></TextView>
+<TextView android:id="@+id/TextView05" android:layout_height="wrap_content" android:layout_width="wrap_content" android:visibility="invisible" android:layout_x="20dip" android:layout_y="290dip"></TextView>
+
+
+</AbsoluteLayout>
